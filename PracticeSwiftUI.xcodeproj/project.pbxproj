@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		B24BC7FB26747E9B000F7C14 /* PracticeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24BC7FE26747E9B000F7C14 /* PracticeSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSwiftUIApp.swift; sourceTree = "<group>"; };
-		B24BC80026747E9B000F7C14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B24BC80026747E9B000F7C14 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 1; wrapsLines = 0; };
 		B24BC80226747EA1000F7C14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B24BC80526747EA1000F7C14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B24BC80726747EA1000F7C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
