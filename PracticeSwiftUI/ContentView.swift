@@ -8,23 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+ 
+ private let mocRepos: [Repo] = [
+  .init(id: 1, name: "Test Repo1", owner: User(name: "Test User1")),
+  .init(id: 2, name: "Test Repo2", owner: User(name: "Test User2")),
+  .init(id: 3, name: "Test Repo3", owner: User(name: "Test User3")),
+  .init(id: 4, name: "Test Repo4", owner: User(name: "Test User4")),
+  .init(id: 5, name: "Test Repo5", owner: User(name: "Test User5"))
+ ]
+ 
  var body: some View {
-  HStack(spacing: -15.0) {
-   Image("GitHubMark")
-    .resizable()
-    .frame(width: 44.0, height: 44.0)
-   VStack(alignment: .leading, spacing: -30.0) {
-    Text("Owner Name")
-     .font(.caption)
-     .fontWeight(.regular)
-     .foregroundColor(Color.black)
-     .padding()
-    Text("Repositoly Name")
-     .font(.body)
-     .fontWeight(.semibold)
-     .foregroundColor(Color.black)
-     .padding()
-   }
+  List(mocRepos) { repo in
+   RepoRow(repo: repo)
   }
  }
 }
@@ -34,3 +29,4 @@ struct ContentView_Previews: PreviewProvider {
   ContentView()
  }
 }
+

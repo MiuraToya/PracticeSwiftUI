@@ -11,6 +11,9 @@
 		B24BC80126747E9B000F7C14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BC80026747E9B000F7C14 /* ContentView.swift */; };
 		B24BC80326747EA1000F7C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24BC80226747EA1000F7C14 /* Assets.xcassets */; };
 		B24BC80626747EA1000F7C14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24BC80526747EA1000F7C14 /* Preview Assets.xcassets */; };
+		B262BC4E2674EBFA007FDDA8 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262BC4D2674EBFA007FDDA8 /* Repo.swift */; };
+		B262BC512674EC09007FDDA8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262BC502674EC09007FDDA8 /* User.swift */; };
+		B262BC562674F4E4007FDDA8 /* RepoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B262BC552674F4E4007FDDA8 /* RepoRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		B24BC80226747EA1000F7C14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B24BC80526747EA1000F7C14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B24BC80726747EA1000F7C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B262BC4D2674EBFA007FDDA8 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		B262BC502674EC09007FDDA8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B262BC552674F4E4007FDDA8 /* RepoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 			children = (
 				B24BC7FE26747E9B000F7C14 /* PracticeSwiftUIApp.swift */,
 				B24BC80026747E9B000F7C14 /* ContentView.swift */,
+				B262BC552674F4E4007FDDA8 /* RepoRow.swift */,
+				B262BC532674EC11007FDDA8 /* Model */,
 				B24BC80226747EA1000F7C14 /* Assets.xcassets */,
 				B24BC80726747EA1000F7C14 /* Info.plist */,
 				B24BC80426747EA1000F7C14 /* Preview Content */,
@@ -67,6 +75,15 @@
 				B24BC80526747EA1000F7C14 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B262BC532674EC11007FDDA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B262BC4D2674EBFA007FDDA8 /* Repo.swift */,
+				B262BC502674EC09007FDDA8 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B262BC562674F4E4007FDDA8 /* RepoRow.swift in Sources */,
+				B262BC512674EC09007FDDA8 /* User.swift in Sources */,
+				B262BC4E2674EBFA007FDDA8 /* Repo.swift in Sources */,
 				B24BC80126747E9B000F7C14 /* ContentView.swift in Sources */,
 				B24BC7FF26747E9B000F7C14 /* PracticeSwiftUIApp.swift in Sources */,
 			);
