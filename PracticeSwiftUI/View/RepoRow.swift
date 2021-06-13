@@ -15,7 +15,7 @@ struct RepoRow: View {
     .resizable()
     .frame(width: 44.0, height: 44.0)
    VStack(alignment: .leading, spacing: -30.0) {
-    Text(repo.owner.name)
+    Text(verbatim: repo.owner.name)
      .font(.caption)
      .fontWeight(.regular)
      .foregroundColor(Color.black)

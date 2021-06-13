@@ -18,7 +18,7 @@ struct RepoDetailView: View {
                         Image("GitHubMark")
                             .resizable()
                             .frame(width: 16, height: 16)
-                        Text(repo.owner.name)
+                        Text(verbatim: repo.owner.name)
                             .font(.caption)
                             .fontWeight(.regular)
                             .foregroundColor(Color.black)
@@ -27,7 +27,7 @@ struct RepoDetailView: View {
                         .font(.body)
                         .fontWeight(.semibold)
                         .foregroundColor(Color.black)
-                    Text(repo.description)
+                    Text(repo.description ?? "")
                         .padding(.top, 8)
                     HStack {
                         Image(systemName: "star")
