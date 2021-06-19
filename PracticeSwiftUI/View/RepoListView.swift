@@ -31,11 +31,16 @@ class ReposLoader: ObservableObject {
                 return element.data
             }
             .decode(type: [Repo].self, decoder: JSONDecoder())
-
+        
         reposPublisher
             .receive(on: DispatchQueue.main)
             .sink(receiveCompletion: { completion in
-                print("Finished: \(completion)")
+             switch completion {
+             case .failure(let error):
+              print(error)
+             case .finished:
+              print("OK!!")
+             }
             }, receiveValue: { [weak self] repos in
                 self?.repos = repos
             }
