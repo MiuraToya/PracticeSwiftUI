@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B245D2DC2680E033009194A2 /* RepoAPICliant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B245D2DB2680E033009194A2 /* RepoAPICliant.swift */; };
 		B24BC7FF26747E9B000F7C14 /* PracticeSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BC7FE26747E9B000F7C14 /* PracticeSwiftUIApp.swift */; };
 		B24BC80126747E9B000F7C14 /* RepoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BC80026747E9B000F7C14 /* RepoListView.swift */; };
 		B24BC80326747EA1000F7C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24BC80226747EA1000F7C14 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B245D2DB2680E033009194A2 /* RepoAPICliant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoAPICliant.swift; sourceTree = "<group>"; };
 		B24BC7FB26747E9B000F7C14 /* PracticeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24BC7FE26747E9B000F7C14 /* PracticeSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSwiftUIApp.swift; sourceTree = "<group>"; };
 		B24BC80026747E9B000F7C14 /* RepoListView.swift */ = {isa = PBXFileReference; indentWidth = 1; lastKnownFileType = sourcecode.swift; path = RepoListView.swift; sourceTree = "<group>"; tabWidth = 1; wrapsLines = 0; };
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				B24BC7FE26747E9B000F7C14 /* PracticeSwiftUIApp.swift */,
+				B245D2DB2680E033009194A2 /* RepoAPICliant.swift */,
 				B262BC5C2674F651007FDDA8 /* View */,
 				B262BC532674EC11007FDDA8 /* Model */,
 				B24BC80226747EA1000F7C14 /* Assets.xcassets */,
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B262BC562674F4E4007FDDA8 /* RepoRow.swift in Sources */,
+				B245D2DC2680E033009194A2 /* RepoAPICliant.swift in Sources */,
 				B262BC6426751CC8007FDDA8 /* Repo+mock.swift in Sources */,
 				B262BC512674EC09007FDDA8 /* User.swift in Sources */,
 				B262BC5F26751A8C007FDDA8 /* RepoDetailView.swift in Sources */,
